@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CA:wght@100..400&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    color: #666;
+    font-family: 'Sono', sans-serif;
+    background-color: #f8f9fa;
+    width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.signature h1 {
+
+    font-size: 2.0rem;
+    font-family: 'Playwrite CA', cursive;
+    margin: 0;
+
+
+}
+
+
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, #CDB4DB, #FFC8DD, #A2D2FF);
+}
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+
+
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+
+}
+
+.nav-items {
+    display: flex;
+
+}
+
+.nav-items ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: auto;
+    gap: 20px;
+}
+
+.nav-items ul a {
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    margin-right: 10px;
+
+}
+
+.nav-items ul li {
+    text-align: center;
+}
+
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 50px;
+    margin-top: 20px
+}
+
+.profile {
+    flex: 1 0 auto;
+    width: 50%;
+}
+
+.profile h2 {
+    font-size: 2rem;
+}
+
+.profile h1 {
+    font-size: 2.5rem;
+    font-family: 'Playwrite CA', cursive;
+}
+
+.profile p {
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+
+img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border: 10px solid #FFAFCC;
+
+}
+
+
+.contacts-section {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+
+}
+
+.contacts-section h2 {
+    margin-bottom: 40px;
+    margin-right: 40px;
+    font-size: 2rem;
+
+}
+
+
+.contacts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 80px
+}
+
+.contact-card {
+    width: 300px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 10px;
+    border: 10px solid #FFAFCC;
+    align-items: center;
+}
+
+.contact-card h3 {
+    color: #669bbc;
+}
+
+.contact-card p {
+    color: #666;
+    font-size: 16px;
+}
+
+.media-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.media-button i {
+    font-size: 32px;
+    color: #669bbc;
+    line-height: 40px;
+}
+
+.joinus-section {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+
+}
+
+.joinus-section h2 {
+    margin-bottom: 40px;
+    margin-right: 40px;
+    font-size: 2rem;
+
+}
+
+
+.joinus-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 80px
+}
+
+.joinus-card {
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 10px;
+    border: 10px solid #CDB4DB;
+    align-items: center;
+}
+
+.joinus-card h3 {
+    color: #669bb6;
+}
+
+.joinus-card p {
+    color: #666;
+    font-size: 16px;
+}
+
+
+.joinus-container input,
+.joinus-container textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.joinus-container button {
+    width: 60%;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #A2D2FF;
+    color: #666
+}
+
+.successMsg {
+    display: none;
+    color: green;
+    margin-top: 10px;
+}
+
+
+footer {
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    width: 100%;
+    background: linear-gradient(to left, #CDB4DB, #FFC8DD, #A2D2FF);
+    color: #495057;
+    text-align: center;
+}
